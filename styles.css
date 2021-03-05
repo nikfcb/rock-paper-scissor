@@ -1,0 +1,57 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  padding: 25px;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 81px;
+  padding: 8px;
+  margin: 8px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color: #262421;
+  border: 1px solid yellow;
+}
+
+button:hover {
+  text-decoration: underline;
+  text-decoration-color: pink;
+}
+
+#info {
+  text-align: center;
+  font-style: 15px;
+}
+
+#computer {
+  text-align: center;
+  font-size: 30px;
+}
+
+#restart {
+  text-align: center;
+  font-size: 20px;
+}
