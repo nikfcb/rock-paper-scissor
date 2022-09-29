@@ -17,7 +17,7 @@ function playRound(event) {
     document.getElementById("info").innerHTML = "HUMAN";
     playerScore++;
   } else if (playerSelection == "paper" && computerSelection == "rock") {
-    cdocument.getElementById("info").innerHTML = "HUMAN";
+    document.getElementById("info").innerHTML = "HUMAN";
     playerScore++;
   } else if (playerSelection == "scissor" && computerSelection == "paper") {
     document.getElementById("info").innerHTML = "HUMAN";
